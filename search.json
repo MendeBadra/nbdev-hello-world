@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "mendee_note.html",
+    "href": "mendee_note.html",
+    "title": "Hola, Je m’appelle Mend!",
+    "section": "",
+    "text": "source\n\nsay_hello\n\n say_hello (to)\n\nSay hello to somebody\n\nsay_hello(\"Isaac\")\n\n'Hello Isaac!'\n\n\n\nassert say_hello(\"Hamel\") == \"Hello Hamel!\"\n\n\nfrom fastcore.test import *\n\n\ntest_eq(say_hello(\"Hamel\"), \"Hello Hamel!\")\n\nAnother superpower of notebook-driven development is that your examples can include plots, images, and even JavaScript widgets. For example, here’s an SVG circle:\n\nfrom IPython.display import display,SVG\ndisplay(SVG('&lt;svg height=\"100\" xmlns=\"http://www.w3.org/2000/svg\"&gt;&lt;circle cx=\"50\" cy=\"50\" r=\"40\"/&gt;&lt;/svg&gt;'))\n\n\n\n\n\n\n\n\n\nsource\n\n\nfoo\n\n foo ()",
+    "crumbs": [
+      "Hola, Je m'appelle Mend!"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev-hello-world",
+    "section": "",
+    "text": "Ok. This package prints hello(to) somebody. Created on Dec 31 19:24 2024 by Mendee",
+    "crumbs": [
+      "nbdev-hello-world"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "nbdev-hello-world",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nInstall nbdev_hello_world in Development mode\n# make sure nbdev_hello_world package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to nbdev_hello_world\n$ nbdev_prepare",
+    "crumbs": [
+      "nbdev-hello-world"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "nbdev-hello-world",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/MendeBadra/nbdev-hello-world.git\nor from conda\n$ conda install -c MendeBadra nbdev_hello_world\nor from pypi\n$ pip install nbdev_hello_world\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "nbdev-hello-world"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev-hello-world",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2\n\n\n\nsay_hello(\"Mendee\")\n\n'Hello Mendee!'",
+    "crumbs": [
+      "nbdev-hello-world"
+    ]
+  }
+]
