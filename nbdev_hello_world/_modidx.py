@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://MendeBadra.github.io',
                 'git_url': 'https://github.com/MendeBadra/nbdev-hello-world',
                 'lib_path': 'nbdev_hello_world'},
-  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
+  'syms': { 'nbdev_hello_world.core': { 'nbdev_hello_world.core.foo': ('mendee_note.html#foo', 'nbdev_hello_world/core.py'),
+                                        'nbdev_hello_world.core.say_hello': ('mendee_note.html#say_hello', 'nbdev_hello_world/core.py')}}}
